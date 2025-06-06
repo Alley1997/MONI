@@ -1,0 +1,43 @@
+---
+title: "Malaria Dashbord"
+format: dashboard
+---
+
+
+# Descriptive 
+
+## Row{width=20%}
+
+```{r}
+
+plot(cars)
+```
+
+
+
+```{r}
+
+plot(cars)
+```
+
+
+
+## Row
+
+
+```{r}
+
+plot(cars)
+
+```
+
+
+```{r}
+
+plot(cars)
+```
+
+
+
+# Malaria Modelling 
+
