@@ -1,6 +1,7 @@
 ---
 title: "Malaria Dashbord"
 format: dashboard
+date: "`r Sys.Date()`"
 ---
 
 
