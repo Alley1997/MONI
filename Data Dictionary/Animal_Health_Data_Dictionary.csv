@@ -1,0 +1,6 @@
+Variable Name,Description,Data Type,Unit of Measurement,Expected Value Range or Format,Relevance,Typical Data Source(s)
+livestock_density,Number of livestock (e.g. cattle) per square kilometer,float,animals/km²,0–500,"Early warning, Risk stratification","FAO, Livestock census"
+livestock_ownership,Proportion of households owning livestock,float,%,0–100,Impact evaluation,"DHS, Agricultural surveys"
+itl_coverage,Percentage of livestock treated with insecticide,float,%,0–100,Impact evaluation,"Veterinary campaigns, FAO"
+distance_to_livestock,Average distance between livestock pens and human dwellings,float,meters,0–100,Early warning,"Field survey, Agricultural extension"
+dominant_livestock_type,Main livestock species in the area,string,type,cattle/goat/sheep/pig,Risk stratification,"DHS, Livestock census"

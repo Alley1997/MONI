@@ -1,0 +1,9 @@
+Variable Name,Description,Data Type,Unit of Measurement,Expected Value Range or Format,Relevance,Typical Data Source(s)
+rainfall,Total rainfall in millimeters,float,mm,0–500,Early warning,"CHIRPS, TRMM, National Met Office"
+temperature,Average daily temperature,float,°C,15–40,Early warning,"MODIS, ERA5, Local Met Station"
+humidity,Average relative humidity,float,%,0–100,Early warning,"ERA5, GLDAS, Met Office"
+ndvi,Normalized Difference Vegetation Index,float,index,0–1,Early warning,"MODIS, Sentinel"
+evapotranspiration,Estimated evapotranspiration,float,mm,0–300,Early warning,"MODIS, GLDAS"
+elevation,Elevation above sea level,float,meters,0–3000,Risk stratification,"SRTM, DEM"
+landcover_type,Land cover classification,string,type,forest/crop/urban,Early warning,"MODIS, Copernicus"
+surface_water_index,Normalized Difference Water Index (NDWI),float,index,-1–1,Early warning,"Landsat, Sentinel"

@@ -1,0 +1,10 @@
+Variable Name,Description,Data Type,Unit of Measurement,Expected Value Range or Format,Relevance,Typical Data Source(s)
+malaria_incidence,Number of confirmed malaria cases per 1000 population per year,float,cases/1000,0–500,"Real-time monitoring, Impact evaluation","HMIS, DHIS2"
+test_positivity_rate,Percentage of malaria tests that are positive,float,%,0–100,Real-time monitoring,"HMIS, DHIS2"
+parasite_prevalence,Percentage of population with Plasmodium infection,float,%,0–100,Impact evaluation,"DHS, MIS"
+anemia_prevalence,Percentage of under-5 children with hemoglobin below threshold,float,%,0–100,Impact evaluation,"DHS, MIS"
+malaria_mortality_rate,Malaria-attributed deaths per 1000 population,float,deaths/1000,0–10,Impact evaluation,"Civil Registry, HMIS"
+itn_coverage,Percentage of households with at least one insecticide-treated net,float,%,0–100,Impact evaluation,"DHS, MIS"
+itn_usage,Percentage of population sleeping under ITN the previous night,float,%,0–100,Impact evaluation,"DHS, MIS"
+irs_coverage,Proportion of households covered by indoor residual spraying,float,%,0–100,Impact evaluation,"HMIS, DHS"
+iptp_coverage,Percentage of pregnant women receiving at least 3 IPTp doses,float,%,0–100,Impact evaluation,"ANC records, DHS"
