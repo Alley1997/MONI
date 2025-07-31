@@ -1,10 +1,11 @@
 from django import forms
 
 DATA_TYPE_CHOICES = [
-    ('human', 'Human Health'),
-    ('animal', 'Animal Health'),
-    ('environment', 'Environmental Data'),
+    ("human", "Human Health"),
+    ("animal", "Animal Health"),
+    ("environment", "Environmental Data"),
 ]
+
 
 class DataUploadForm(forms.Form):
     data_file = forms.FileField(label="Upload Data File")
